@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">
+        <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-[#F67F23] mb-12 text-center">
           What Our Patients Say
         </h2>
         <div className="max-w-4xl mx-auto relative">

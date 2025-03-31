@@ -3,7 +3,7 @@ const PhilosophySection = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-2">
+          <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-[#F67F23] mb-2">
             Chompers Family Dental
           </h2>
           <p className="text-xl text-green-600 mb-6">
