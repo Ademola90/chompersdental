@@ -32,9 +32,24 @@ const GallerySection = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-[#F67F23] mb-12 text-center">
-          Gallery
-        </h2>
+        <div className=" justify-center items-center flex">
+          {" "}
+          <h2
+            className="text-3xl md:text-3xl lg:text-4xl font-bold mb-12 text-center "
+            style={{
+              background: "linear-gradient(90deg, #F67F23 0%, #248B3C 100%)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+              display: "inline-block",
+            }}
+          >
+            Gallery
+          </h2>
+        </div>
+        {/* <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-[#F67F23] mb-12 text-center">
+         
+        </h2> */}
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {galleryItems.map((item) => (
             <div

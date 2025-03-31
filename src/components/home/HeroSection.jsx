@@ -76,7 +76,7 @@ const HeroSection = () => {
           {/* Slide content */}
           <div className="container mx-auto px-4 py-20 lg:py-32 h-full flex items-center relative z-10">
             <div className="max-w-3xl text-white">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold mb-6">
                 {slide.title}
               </h1>
               <p className="text-xl mb-8">{slide.description}</p>

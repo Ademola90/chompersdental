@@ -3,9 +3,24 @@ const PhilosophySection = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-[#F67F23] mb-2">
-            Chompers Family Dental
-          </h2>
+          <div className=" justify-center items-center flex">
+            {" "}
+            <h2
+              className="text-3xl md:text-3xl lg:text-4xl font-bold mb-12 text-center "
+              style={{
+                background: "linear-gradient(90deg, #F67F23 0%, #248B3C 100%)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                color: "transparent",
+                display: "inline-block",
+              }}
+            >
+              Chompers Family Dental
+            </h2>
+          </div>
+          {/* <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-[#F67F23] mb-2">
+            
+          </h2> */}
           <p className="text-xl text-green-600 mb-6">
             Dental Care Clinic in Richmond, British Columbia
           </p>

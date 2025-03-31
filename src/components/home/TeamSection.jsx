@@ -43,9 +43,22 @@ const TeamSection = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-[#F67F23] mb-12 text-center">
-          Meet Our Dental Team
-        </h2>
+        <div className=" justify-center items-center flex">
+          {" "}
+          <h2
+            className="text-3xl md:text-3xl lg:text-4xl font-bold mb-12 text-center"
+            style={{
+              background: "linear-gradient(90deg, #F67F23 0%, #248B3C 100%)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+              display: "inline-block",
+            }}
+          >
+            Meet Our Dental Team
+          </h2>
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {teamMembers.map((member) => (
             <div
