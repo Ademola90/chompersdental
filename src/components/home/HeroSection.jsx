@@ -24,7 +24,6 @@ const HeroSection = () => {
       description:
         "Experience state-of-the-art dental care with our modern equipment and innovative techniques.",
       bgColor: "from-blue-700/60 to-blue-600/60",
-
       bgImage: herotwo,
     },
     {
@@ -33,7 +32,6 @@ const HeroSection = () => {
       description:
         "Our gentle approach and friendly staff ensure your visit is as pleasant and relaxing as possible.",
       bgColor: "from-purple-700/60 to-purple-600/60",
-
       bgImage: herothree,
     },
   ];
